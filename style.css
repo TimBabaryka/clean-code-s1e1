@@ -144,13 +144,13 @@
   width: 226px;
 }
 
-.delete .animation{
+.listed-tasks__delete .delete__animation{
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.animation:hover {
+.delete__animation:hover {
   transform: rotateZ(0);
 }
 
