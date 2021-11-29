@@ -1,5 +1,6 @@
 /* Basic Style */
-.input__common, .button {
+.input__common,
+.button {
   outline: none;
 }
 
@@ -20,7 +21,8 @@
   width: 100%;
 }
 
-.header .more_info {
+.header,
+.more_info {
   font-family: fantasy, cursive;
 }
 
@@ -120,7 +122,10 @@
   align-items: center;
 }
 
-.listed-tasks, .input__checkbox, .task, .button {
+.listed-tasks,
+.input__checkbox,
+.task,
+.button {
   vertical-align: middle;
 }
 
@@ -135,7 +140,7 @@
   width: 226px;
 }
 
-.listed-tasks  .task-input {
+.listed-tasks .task-input {
   width: 226px;
 }
 
